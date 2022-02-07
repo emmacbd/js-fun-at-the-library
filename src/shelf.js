@@ -20,7 +20,6 @@ function unshelfBook(book, shelf) {
    for(var i = 0; i < books.length; i++) {
      bookTitles.push(books[i].title);
 }  return bookTitles.join(', ');
-
 };
 
 function searchShelf(shelf, bookTitle) {

@@ -12,8 +12,7 @@ function buildMainCharacter(name, age, pronouns) {
 
 function saveReview(reviewPhrase, arrayOfReviews){
   for(var i = 0; i < arrayOfReviews.length; i++){
-    var actualReview = arrayOfReviews[i]
-   if(actualReview === reviewPhrase){
+   if(arrayOfReviews[i] === reviewPhrase){
      return arrayOfReviews
     }
   }
